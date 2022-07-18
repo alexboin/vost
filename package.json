@@ -1,11 +1,12 @@
 {
   "name": "vost",
   "version": "1.0.0",
-  "description": "Site web de club de vidéo de l'ENSEIRB-MATEMCA",
+  "description": "Site web de club de vidéo de l'ENSEIRB-MATMECA",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon"
+    "dev": "nodemon",
+    "populate": "npx ts-node populate.ts"
   },
   "repository": {
     "type": "git",

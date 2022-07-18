@@ -27,7 +27,7 @@ function create(video: VideoModel) {
 
 function updateVideo(video: VideoModel, id: number) {
     const updateVideo = {
-        name: video.name,
+        name: video.title,
         description: video.description,
         private: video.private,
         url: video.url
